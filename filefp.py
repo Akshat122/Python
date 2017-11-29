@@ -1,0 +1,12 @@
+fp=open("fp.txt","a+")
+fp.write("Hi i am akshat \n")
+fp.write("test12334")
+fp.seek(100,0)
+str=fp.read()
+print(str)
+x=fp.tell()
+print(x)
+fp.seek(0,0)
+a=fp.readlines()
+print(a)
+

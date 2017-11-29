@@ -1,0 +1,4 @@
+a=["aabaa","z","b","aba","left","cbc"]
+b=len(a)
+for x in range(0,b):
+	if(a[x][0]==a[x]
